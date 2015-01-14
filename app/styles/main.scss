@@ -24,6 +24,7 @@
 	background-color: #d5f1f0;
 	width: 100%;
 }
+
 .header-container {
 	background-color: white;
 	width: 25%;
@@ -33,10 +34,23 @@
 	display: inline;
 }
 
+.input {
+	border-radius: 500px;
+	-moz-border-radius: 500px;
+	-webkit-border-radius: 500px;
+}
+
 .nav {
 	background-color: #f5cad3;
+	text-align: center;
 }
 
 .item {
 	display: inline;
+	padding: 0 10px;
+	margin: 0 2%;
+}
+
+.content {
+	background-color: #74CCD1;
 }
