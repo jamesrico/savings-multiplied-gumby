@@ -7,5 +7,8 @@
   ],
   "description": "savings multiplied using gumby framework",
   "main": "public/index.html",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gumby": "~2.6.3"
+  }
 }
