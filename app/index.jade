@@ -12,22 +12,28 @@ html(lang="en-US")
     // [if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]
 
     // Brennan
-
     .header
-      .header-container
-        img.logo(src="/img/savings-multiplied-logo.png")
-        ul
-          li.header-button About
-          li.header-button Contact
-          li.header-button Blog
-          li.header-button Press
-
+      .row
+        .ten.columns
+        .two.columns.sign
+          a(href='#') sign up | sign in
+      .row
+        .four.columns
+          img.logo(src="/img/savings-multiplied-logo.png")
+        .eight.columns
+          ul
+            li.header-button.about.medium.btn.pill-left.default About
+            li.header-button.medium.squared.btn.default.contact Contact
+            li.header-button.medium.squared.btn.default.blog Blog
+            li.header-button.medium.btn.pill-right.default.press Press
+            img(src="/img/tagline.png")
     .nav
-      ul
-        li.item Buy
-        li.item Sell
-        li.item How it Works
-        li.item Links
-        li.item Community
+      .row
+        ul
+          li.item Buy
+          li.item Sell
+          li.item How it Works
+          li.item Links
+          li.item Community
 
-    .content
+    .row.content
