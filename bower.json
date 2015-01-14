@@ -1,0 +1,11 @@
+{
+  "name": "savings-multiplied-gumby",
+  "version": "0.0.1",
+  "authors": [
+    "Elisha Williams <elishacodes@gmail.com>",
+    "Brennen <brennanw22@gmail.com>"
+  ],
+  "description": "savings multiplied using gumby framework",
+  "main": "public/index.html",
+  "license": "MIT"
+}
