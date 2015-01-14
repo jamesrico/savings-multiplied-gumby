@@ -1,14 +1,19 @@
 @import "variables";
 @import "headings";
 
-.logo {
-	
+.header {
+	background-color: #d5f1f0;
+}
+
+.header-container {
+	background-color: white;
+	width: 25%;
 }
 
 .item {
 	display: inline;
 }
 
-.'centered ten columns'{
+.centered.ten.columns{
 	background-color: blue;
 	}
