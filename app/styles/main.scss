@@ -18,6 +18,7 @@
 
 .row {
 	padding: 0;
+	background-color: white;
 }
 
 .sign {
@@ -53,4 +54,12 @@
 
 .content {
 	background-color: #74CCD1;
+	height: 100%;
+}
+
+.top, .mid-top, .mid-bottom, .bottom {
+	background-color: white;
+	height: 100px;
+	margin: 0;
+	padding: 0;
 }
