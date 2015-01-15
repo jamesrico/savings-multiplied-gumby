@@ -17,7 +17,9 @@
 }
 
 .nav_ul {
-	float: right;
+	text-align: right;
+	padding-top: 60px;
+	padding-right: 20px;
 }
 
 .nav_ul li {
@@ -88,9 +90,10 @@ ul {
 	text-align: center;
 	width: 550px;
 	float: right;
-	padding-top: 20px;
+	padding-top: 10px;
 	font-size: 24px;
 	color: #27A9B4;
+	margin-bottom: 0;
 }
 
 .owl {
