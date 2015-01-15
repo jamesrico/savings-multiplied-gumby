@@ -1,6 +1,11 @@
 @import "variables";
 @import "headings";
 
+@font-face {
+	font-family: 'Corben', cursive;
+	font-family: 'Nobile', sans-serif;
+}
+
 .header {
 	background-color: #d5f1f0;
 }
@@ -12,8 +17,21 @@
 
 .header .row {
 	background-color: white;
-	border-top-right-radius: 25%;
-	border-top-left-radius: 25%;
+	border-top-right-radius: 40px;
+	border-top-left-radius: 40px;
+}
+
+
+h1 {
+    font-family: 'Corben', Georgia, Times, serif;
+    font-size: 40px;
+    line-height: 55px;
+}
+
+p {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    line-height: 25px;
 }
 
 .btn {
@@ -25,15 +43,37 @@
 	padding-left: 140px;
 }
 
+.nav_ul .primary {
+	background-color: #77C4D0;
+	border: 1px solid #77C4D0;
+}
+
+.nav_ul .secondary {
+	background-color: #87B73B;
+	border: 1px solid #87B738;
+}
+
+.nav_ul .warning {
+	color: white;
+	background-color: #72288B;
+	border: 1px solid #72288B;
+}
+
+.nav_ul .danger {
+	background-color: #ED008B;
+	border: 1px solid #ED008B;
+}
+
 .nav_ul {
 	text-align: right;
 	padding-top: 60px;
-	padding-right: 85px;
+	padding-right: 50px;
 }
 
 .nav_ul li {
 	text-align: center;
 	display: inline;
+	margin-right: 10px;
 }
 
 .header-button {
@@ -64,6 +104,11 @@ ul {
 	margin-bottom: 0;
 }
 
+.logo {
+	margin-left: 5px;
+	margin-top: -30px;
+}
+
 .input {
 	border-radius: 500px;
 	-moz-border-radius: 500px;
@@ -78,7 +123,7 @@ ul {
 .item {
 	display: inline;
 	margin: 0 2%;
-	padding: 0 20px;
+	padding: 0 8px;
 }
 
 .content {
@@ -113,6 +158,7 @@ ul {
 
 .owl {
 	margin-left: 40px;
+	height: 50px;
 }
 
 .shop {
@@ -135,8 +181,8 @@ ul {
 }
 
 .content .bottomrow {
-	border-bottom-right-radius: 25%;
-	border-bottom-left-radius: 25%;
+	border-bottom-right-radius: 40px;
+	border-bottom-left-radius: 40px;
 }
 
 .linkrow {
