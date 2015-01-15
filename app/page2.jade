@@ -54,8 +54,21 @@ html(lang="en-US")
             hr 
             ul
               li.item
-              li.item
-                input.input( type="text" placeholder="Search...")  
+                input.input( type="text" placeholder="") 
+                .medium.oval.btn.default 
+                  .content-button.search Search
+            ul
+              li.field Condition:
+              li.field
+                label.radio.checked(for="new") 
+                  input#new(name="radio" value="1" type="radio" checked="checked")
+                  span
+                  button-text New  
+
+                  
+                 
+
+
         .eight.columns
           .content-wrap-right 
             p test right side
@@ -74,3 +87,9 @@ html(lang="en-US")
       a.bottomlink(href='#') Link Here
       p.bottomlink |
       a.bottomlink(href='#') Link Here
+
+    script(src="/vendor/jquery/dist/jquery.min.js")  
+    
+    script(src="/vendor/modernizr/modernizr.js")  
+
+    script(src="/vendor/gumby/js/libs/gumby.min.js")
