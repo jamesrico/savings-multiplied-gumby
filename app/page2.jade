@@ -1,0 +1,76 @@
+doctype html
+html(lang="en-US")
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    title Savings Multiplied
+    link(rel="stylesheet" href="/vendor/gumby/css/gumby.css")
+    link(rel="stylesheet" href="/css/main.css")
+
+  body
+    // [if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]
+
+    // Brennan
+    .header
+      .row
+        .ten.columns
+        .two.columns.sign
+          a(href='#') sign up | sign in
+      .row
+        .four.columns
+          img.logo(src="/img/savings-multiplied-logo.png")
+        .eight.columns
+          ul.nav_ul
+            li.medium.btn.pill-left.primary
+              .header-button.about About
+            li.medium.squared.btn.success
+             .header-button.contact Contact
+            li.medium.squared.btn.warning
+             .header-button.blog Blog
+            li.medium.btn.pill-right.danger
+             .header-button.press Press
+          img.tagline(src="/img/tagline.png")
+    .nav
+      ul
+        li.item
+          a(href='#') Buy
+        li.item
+          a(href='#') Sell
+        li.item
+          a(href='#') How it Works
+        li.item
+          a(href='#') Links
+        li.item
+          a(href='#') Community
+        li.item
+          input.input( type="text" placeholder="Search...")
+
+    .content
+      .row
+        .four.columns
+          .content-wrap-left
+            p Limit your search by:
+            hr 
+            ul
+              li.item
+              li.item
+                input.input( type="text" placeholder="Search...")  
+        .eight.columns
+          .content-wrap-right 
+            p test right side
+
+
+
+    .row.linkrow
+      a.bottomlink(href='#') Link Here
+      p.bottomlink |
+      a.bottomlink(href='#') Link Here
+      p.bottomlink |
+      a.bottomlink(href='#') Link Here
+      p.bottomlink |
+      a.bottomlink(href='#') Link Here
+      p.bottomlink |
+      a.bottomlink(href='#') Link Here
+      p.bottomlink |
+      a.bottomlink(href='#') Link Here
