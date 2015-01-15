@@ -21,18 +21,46 @@ html(lang="en-US")
         .four.columns
           img.logo(src="/img/savings-multiplied-logo.png")
         .eight.columns
-          ul
+          ul.nav_ul
             li.header-button.about.medium.btn.pill-left.default About
             li.header-button.medium.squared.btn.default.contact Contact
             li.header-button.medium.squared.btn.default.blog Blog
             li.header-button.medium.btn.pill-right.default.press Press
-            img(src="/img/tagline.png")
+            img.tagline(src="/img/tagline.png")
     .nav
+      ul
+        li.item Buy
+        li.item Sell
+        li.item How it Works
+        li.item Links
+        li.item Community
+        li.item 
+          input.input( type="text" placeholder="Search...")
+
+    .content
       .row
-        ul
-          li.item Buy
-          li.item Sell
-          li.item How it Works
-          li.item Links
-          li.item Community
-    .row.content
+        .eight.columns
+          .top
+            h3.owl_head We're making on aspect of life easier for parent of multiples!
+            img.owl(src="/img/owl_bright_blue_64.png")
+            p.blue_owl Buying and selling gently used sets of clothes!
+        .four.columns
+          img.twins(src="/img/twins.jpg")
+      .row
+        .eight.columns
+          .mid-top
+            img.shop(src="/img/left_2_shop_now.png")
+        .four.columns
+          img.triplets(src="/img/triplets.jpg")
+      .row
+        .eight.columns
+          .mid-bottom
+            img.tree(src="/img/tree.png")
+        .four.columns
+          img.quads(src="/img/quads.jpg")
+      .row.bottomrow
+        .twelve.columns
+          img.callout(src="/img/facebook_callout.png")
+          img.callout(src="/img/twitter_callout.png")
+          img.callout(src="/img/message_board_callout.png")
+          img.callout(src="/img/special_offers_callout.png")

@@ -16,14 +16,26 @@
 	border-top-left-radius: 25%;
 }
 
+.nav_ul {
+	text-align: right;
+	padding-top: 60px;
+	padding-right: 20px;
+}
+
+.nav_ul li {
+	text-align: center;
+}
+
 .row {
 	padding: 0;
+	background-color: white;
 }
 
 .sign {
 	background-color: #d5f1f0;
 	width: 100%;
 }
+
 .header-container {
 	background-color: white;
 	width: 25%;
@@ -33,14 +45,81 @@
 	display: inline;
 }
 
+ul {
+	margin-bottom: 0;
+}
+
+.input {
+	border-radius: 500px;
+	-moz-border-radius: 500px;
+	-webkit-border-radius: 500px;
+}
+
 .nav {
 	background-color: #f5cad3;
+	text-align: center;
 }
 
 .item {
 	display: inline;
+	padding: 0 10px;
+	margin: 0 2%;
 }
 
-.centered.ten.columns{
-	background-color: blue;
-	}
+.content {
+	background-color: #74CCD1;
+	height: 100%;
+}
+
+.top, .mid-top, .mid-bottom, .bottom {
+	background-color: white;
+	height: 100px;
+	margin: 0;
+	padding: 0;
+}
+
+.twins {
+	margin-top: 20px;
+}
+
+.twins, .triplets, .quads {
+	padding-right: 20px;
+}
+
+.blue_owl {
+	text-align: center;
+	width: 550px;
+	float: right;
+	padding-top: 10px;
+	font-size: 24px;
+	color: #27A9B4;
+	margin-bottom: 0;
+}
+
+.owl {
+	margin-left: 40px;
+}
+
+.shop {
+	margin-left: 80px;
+}
+
+.tree {
+	float: right;
+}
+
+.callout {
+	padding: 20px 30px;
+}
+
+.owl_head {
+	padding-top: 20px;
+	padding-left: 50px;
+	color: #8BBA40;
+	font-weight: bold;
+}
+
+.content .bottomrow {
+	border-bottom-right-radius: 25%;
+	border-bottom-left-radius: 25%;
+}
