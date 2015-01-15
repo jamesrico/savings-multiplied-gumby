@@ -57,16 +57,144 @@ html(lang="en-US")
                 input.input( type="text" placeholder="") 
                 .medium.oval.btn.default 
                   .content-button.search Search
-            ul
-              li.field Condition:
-              li.field
-                label.radio.checked(for="new") 
-                  input#new(name="radio" value="1" type="radio" checked="checked")
-                  span
-                  button-text New  
+            
+            ul.ulname 
+              li.formli 
+                span Condition:
+                ul.formli
+                  li.field
+                    label.radio.checked(for="new") 
+                      input#new(name="radio" value="1" type="radio" checked="checked")
+                      span
+                      button-text New  
+                  li.field
+                    label.radio.checked(for="gentlyused") 
+                      input#gentlyused(name="radio" value="1" type="radio" checked="checked")
+                      span
+                      button-text Gently Used  
+            ul.ulname
+              li.formfield
+                span Size
+                ul
+                  li.formli 
+                    label.radio.checked(for="size4") 
+                      input#size4(name="radio" value="1" type="radio" checked="checked")
+                      span
+                      button-text 4 
+                  li.formli 
+                    label.radio.checked(for="size8") 
+                      input#size8(name="radio" value="1" type="radio" checked="checked")
+                      span
+                      button-text 8 
+                ul
+                  li.formli 
+                    label.radio.checked(for="size5") 
+                      input#size5(name="radio" value="1" type="radio" checked="checked")
+                      span
+                      button-text 5 
+                  li.formli 
+                    label.radio.checked(for="size9") 
+                      input#size9(name="radio" value="1" type="radio" checked="checked")
+                      span
+                      button-text 9
+                ul
+                  li.formli 
+                    label.radio.checked(for="size6") 
+                      input#size6(name="radio" value="1" type="radio" checked="checked")
+                      span
+                      button-text 6
+                  li.formli 
+                    label.radio.checked(for="size10") 
+                      input#size10(name="radio" value="1" type="radio" checked="checked")
+                      span
+                      button-text 10 
+                ul
+                  li.formli 
+                    label.radio.checked(for="size7") 
+                      input#size7(name="radio" value="1" type="radio" checked="checked")
+                      span
+                      button-text 7 
+                  li.formli 
+                    label.radio.checked(for="size11") 
+                      input#size11(name="radio" value="1" type="radio" checked="checked")
+                      span
+                      button-text 11 
 
-                  
-                 
+            ul.ulname
+              li.formfield
+                span Size
+                ul
+                  li.formli 
+                    label.radio.checked(for="allseasons") 
+                      input#allseasons(name="radio" value="1" type="radio" checked="checked")
+                      span
+                      button-text All Seasons 
+                ul  
+                  li.formli 
+                    label.radio.checked(for="Spring") 
+                      input#size4(name="radio" value="Spring" type="radio" checked="checked")
+                      span
+                      button-text Spring
+                ul  
+                  li.formli 
+                    label.radio.checked(for="Summer") 
+                      input#Summer(name="radio" value="Spring" type="radio" checked="checked")
+                      span
+                      button-text Summer
+                ul
+                  li.formli 
+                    label.radio.checked(for="Fall") 
+                      input#Fall(name="radio" value="Spring" type="radio" checked="checked")
+                      span
+                      button-text Fall
+                ul  
+                  li.formli 
+                    label.radio.checked(for="Winter") 
+                      input#Winter(name="radio" value="Spring" type="radio" checked="checked")
+                      span
+                      button-text Winter
+
+            ul.ulname
+              li.formfield
+                span Type
+                ul
+                  li.formli 
+                    label.radio.checked(for="any") 
+                      input#any(name="radio" value="1" type="radio" checked="checked")
+                      span
+                      button-text Any
+                ul  
+                  li.formli 
+                    label.radio.checked(for="onepiece") 
+                      input#onepiece(name="radio" value="Spring" type="radio" checked="checked")
+                      span
+                      button-text One-Piece
+                ul
+                  li.formli 
+                    label.radio.checked(for="tops") 
+                      input#tops(name="radio" value="Spring" type="radio" checked="checked")
+                      span
+                      button-text Tops            
+                ul
+                  li.formli 
+                    label.radio.checked(for="bottoms") 
+                      input#bottoms(name="radio" value="Spring" type="radio" checked="checked")
+                      span
+                      button-text Bottoms 
+            ul
+              li.field
+                .picker
+                  select 
+                    option Jack and Jill
+                    option Garanimals
+                    option Osh Kosh
+                    option Gap
+                    option Old Navy
+                    option Rothschild
+                    option Beanpole
+                    option Blue Ivy
+                    option Juicy
+                    option Hello Kitty 
 
 
         .eight.columns
