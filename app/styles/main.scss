@@ -16,6 +16,14 @@
 	border-top-left-radius: 25%;
 }
 
+.nav_ul {
+	width: 100%;
+}
+
+.nav_ul li {
+	text-align: center;
+}
+
 .row {
 	padding: 0;
 	background-color: white;
@@ -66,4 +74,12 @@ ul {
 	height: 100px;
 	margin: 0;
 	padding: 0;
+}
+
+.twins {
+	margin-top: 10px;
+}
+
+.twins, .triplets, .quads {
+	padding-right: 10px;
 }
