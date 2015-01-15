@@ -17,7 +17,7 @@
 }
 
 .nav_ul {
-	width: 100%;
+	float: right;
 }
 
 .nav_ul li {
@@ -77,9 +77,46 @@ ul {
 }
 
 .twins {
-	margin-top: 10px;
+	margin-top: 20px;
 }
 
 .twins, .triplets, .quads {
-	padding-right: 10px;
+	padding-right: 20px;
+}
+
+.blue_owl {
+	text-align: center;
+	width: 550px;
+	float: right;
+	padding-top: 20px;
+	font-size: 24px;
+	color: #27A9B4;
+}
+
+.owl {
+	margin-left: 40px;
+}
+
+.shop {
+	margin-left: 80px;
+}
+
+.tree {
+	float: right;
+}
+
+.callout {
+	padding: 20px 30px;
+}
+
+.owl_head {
+	padding-top: 20px;
+	padding-left: 50px;
+	color: #8BBA40;
+	font-weight: bold;
+}
+
+.content .bottomrow {
+	border-bottom-right-radius: 25%;
+	border-bottom-left-radius: 25%;
 }
