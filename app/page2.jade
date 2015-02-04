@@ -10,7 +10,6 @@ html(lang="en-US")
 
   body
 
-    // Brennan
     .header
       .row
         .ten.columns
@@ -49,151 +48,77 @@ html(lang="en-US")
       .row
         .four.columns
           .content-wrap-left
-            p Limit your search by:
-            hr 
-            ul
-              li.item
-                input.input( type="text" placeholder="") 
-                .medium.oval.btn.default 
-                  .content-button.search Search
-            
-            ul.ulname 
-              li.formli 
-                span Condition:
-                ul.formli
-                  li.field
-                    label.radio.checked(for="new") 
-                      input#new(name="radio" value="1" type="radio" checked="checked")
-                      span
-                      button-text New  
-                  li.field
-                    label.radio.checked(for="gentlyused") 
-                      input#gentlyused(name="radio" value="1" type="radio" checked="checked")
-                      span
-                      button-text Gently Used  
-            ul.ulname
-              li.formfield
-                span Size
-                ul
-                  li.formli 
-                    label.radio.checked(for="size4") 
-                      input#size4(name="radio" value="1" type="radio" checked="checked")
-                      span
-                      button-text 4 
-                  li.formli 
-                    label.radio.checked(for="size8") 
-                      input#size8(name="radio" value="1" type="radio" checked="checked")
-                      span
-                      button-text 8 
-                ul
-                  li.formli 
-                    label.radio.checked(for="size5") 
-                      input#size5(name="radio" value="1" type="radio" checked="checked")
-                      span
-                      button-text 5 
-                  li.formli 
-                    label.radio.checked(for="size9") 
-                      input#size9(name="radio" value="1" type="radio" checked="checked")
-                      span
-                      button-text 9
-                ul
-                  li.formli 
-                    label.radio.checked(for="size6") 
-                      input#size6(name="radio" value="1" type="radio" checked="checked")
-                      span
-                      button-text 6
-                  li.formli 
-                    label.radio.checked(for="size10") 
-                      input#size10(name="radio" value="1" type="radio" checked="checked")
-                      span
-                      button-text 10 
-                ul
-                  li.formli 
-                    label.radio.checked(for="size7") 
-                      input#size7(name="radio" value="1" type="radio" checked="checked")
-                      span
-                      button-text 7 
-                  li.formli 
-                    label.radio.checked(for="size11") 
-                      input#size11(name="radio" value="1" type="radio" checked="checked")
-                      span
-                      button-text 11 
-
-            ul.ulname
-              li.formfield
-                span Size
-                ul
-                  li.formli 
-                    label.radio.checked(for="allseasons") 
-                      input#allseasons(name="radio" value="1" type="radio" checked="checked")
-                      span
-                      button-text All Seasons 
-                ul  
-                  li.formli 
-                    label.radio.checked(for="Spring") 
-                      input#size4(name="radio" value="Spring" type="radio" checked="checked")
-                      span
-                      button-text Spring
-                ul  
-                  li.formli 
-                    label.radio.checked(for="Summer") 
-                      input#Summer(name="radio" value="Spring" type="radio" checked="checked")
-                      span
-                      button-text Summer
-                ul
-                  li.formli 
-                    label.radio.checked(for="Fall") 
-                      input#Fall(name="radio" value="Spring" type="radio" checked="checked")
-                      span
-                      button-text Fall
-                ul  
-                  li.formli 
-                    label.radio.checked(for="Winter") 
-                      input#Winter(name="radio" value="Spring" type="radio" checked="checked")
-                      span
-                      button-text Winter
-
-            ul.ulname
-              li.formfield
-                span Type
-                ul
-                  li.formli 
-                    label.radio.checked(for="any") 
-                      input#any(name="radio" value="1" type="radio" checked="checked")
-                      span
-                      button-text Any
-                ul  
-                  li.formli 
-                    label.radio.checked(for="onepiece") 
-                      input#onepiece(name="radio" value="Spring" type="radio" checked="checked")
-                      span
-                      button-text One-Piece
-                ul
-                  li.formli 
-                    label.radio.checked(for="tops") 
-                      input#tops(name="radio" value="Spring" type="radio" checked="checked")
-                      span
-                      button-text Tops            
-                ul
-                  li.formli 
-                    label.radio.checked(for="bottoms") 
-                      input#bottoms(name="radio" value="Spring" type="radio" checked="checked")
-                      span
-                      button-text Bottoms 
-            ul
-              li.field
-                .picker
-                  select 
-                    option Jack and Jill
-                    option Garanimals
-                    option Osh Kosh
-                    option Gap
-                    option Old Navy
-                    option Rothschild
-                    option Beanpole
-                    option Blue Ivy
-                    option Juicy
-                    option Hello Kitty 
+            form
+              h5 Limit your search by:
+                input(type="text" placeholder="overalls...")
+                form
+                  input(type="radio" name="New")
+                  label New
+                  br
+                  input(type="radio" name="Used")
+                  label Gently Used
+                  h6 Size:
+                      input(type="radio" name="4")
+                      label(for="4") 4
+                      br
+                      input(type="radio" name="5")
+                      label(for="5") 5
+                      br
+                      input(type="radio" name="6")
+                      label(for="6") 6
+                      br
+                      input(type="radio" name="7")
+                      label(for="7")
+                      input(type="radio" name="8")
+                      label(for="8") 8
+                      br
+                      input(type="radio" name="9")
+                      label(for="9") 9
+                      br
+                      input(type="radio" name="10")
+                      label(for="10") 10
+                      br
+                      input(type="radio" name="11")
+                      label(for="11") 11
+                  h6 Season:
+                      input(type="radio" name="All")
+                      label(for="All") All Seasons
+                      br
+                      input(type="radio" name="Winter")
+                      label(for="Winter") Winter
+                      br
+                      input(type="radio" name="Fall")
+                      label(for="Fall") Fall
+                      br
+                      input(type="radio" name="Spring")
+                      label(for="Spring") Spring
+                      br
+                      input(type="radio" name="Summer")
+                      label(for="Summer") Summer
+                  h6 Type:
+                      input(type="radio" name="Any")
+                      label(for="Any") Any
+                      br
+                      input(type="radio" name="One")
+                      label(for="One") One-Piece
+                      br
+                      input(type="radio" name="Tops")
+                      label(for="Tops") Tops
+                      br
+                      input(type="radio" name="Bottoms")
+                      label(for="Bottoms") Bottoms
+                  h6 Brand:
+                    select
+                      option Jack and Jill
+                      option Garanimals
+                      option Osh Kosh
+                      option Gap
+                      option Old Navy
+                      option Rothschild
+                      option Beanpole
+                      option Blue Ivy
+                      option Juicy
+                      option Hello Kitty
 
 
         .eight.columns
@@ -202,7 +127,7 @@ html(lang="en-US")
               p.rightp All > Twin > B/G
             .row
               p.rightp Sort by:
-                select 
+                select
                   option(value="Price") Price
                   option(value="Size") Size
                   option(value="Condition") Condition
@@ -223,74 +148,8 @@ html(lang="en-US")
                   a.navrow(href='#') view all
                 li.navlink
                   p.navrow |
-            .row
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-            .row
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-            .row
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-            .row
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
-              .three.columns
-                .overbox
-                  .box
-                  p Sailor Suits $15.00 Jane Joe 4 hours
+
+
       .row.linkrow
         a.p2.bottomlink(href='#') Link Here
         p.p2.bottomlink |
@@ -304,8 +163,8 @@ html(lang="en-US")
         p.p2.bottomlink |
         a.p2.bottomlink(href='#') Link Here
 
-    script(src="/vendor/jquery/dist/jquery.min.js")  
-    
-    script(src="/vendor/modernizr/modernizr.js")  
+    script(src="/vendor/jquery/dist/jquery.min.js")
+
+    script(src="/vendor/modernizr/modernizr.js")
 
     script(src="/vendor/gumby/js/libs/gumby.min.js")
