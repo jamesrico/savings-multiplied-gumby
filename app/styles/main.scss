@@ -130,7 +130,7 @@ ul {
 
 .content {
 	background-color: #74CCD1;
-	height: 100%;
+	height: 1000px;
 }
 
 .top, .mid-top, .mid-bottom, .bottom {
@@ -212,4 +212,15 @@ ul {
 .content-wrap-right {
 	background-color: #e9fbc7;
 	margin: 20px 20px 20px 0;
+}
+
+.listImage {
+  height: 180px;
+  width: 160px;
+}
+
+.productContainer {
+  border: 1px solid lightgray;
+  padding: 5px;
+  width: 160px;
 }
