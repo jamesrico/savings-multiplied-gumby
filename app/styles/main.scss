@@ -130,7 +130,7 @@ ul {
 
 .content {
 	background-color: #74CCD1;
-	height: 1000px;
+	height: 100%;
 }
 
 .top, .mid-top, .mid-bottom, .bottom {
@@ -220,7 +220,8 @@ ul {
 }
 
 .productContainer {
-  border: 1px solid lightgray;
   padding: 5px;
-  width: 160px;
+  width: 180px;
+  margin: 10px 10px 10px 10px;
+  display: inline-block;
 }

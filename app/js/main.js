@@ -17,9 +17,9 @@
         var $itemContainer  = $('<div class="productContainer"></div>');
         var $itemImage = $('<img src="' + merch.image + '" class="listImage">');
 
-        $itemTitle.text(merch.title);
+        $itemTitle.text("Product: " + merch.title);
         $itemPrice.text("$" + merch.price);
-        $itemSeller.text(merch.seller);
+        $itemSeller.text("Seller: " + merch.seller);
 
         $itemContainer.append($itemImage);
         $itemContainer.append($itemTitle);
